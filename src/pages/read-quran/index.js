@@ -1,4 +1,5 @@
 import LeftSection from "../../components/read_quran/LeftSection";
+import RightSection from "../../components/read_quran/RightSection";
 
 function ReadQuran() {
   return (
@@ -7,7 +8,7 @@ function ReadQuran() {
       <LeftSection />
 
       {/* bagian kanan  */}
-      <div className="bg-slate-200 basis-3/4">kanan</div>
+      <RightSection />
     </div>
   );
 }
